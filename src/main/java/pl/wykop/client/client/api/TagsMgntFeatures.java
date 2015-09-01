@@ -1,6 +1,6 @@
-package pl.wykop.anotherpackage.api;
+package pl.wykop.client.client.api;
 
-import pl.wykop.anotherpackage.model.RestResponse;
+import pl.wykop.client.client.model.RestResponse;
 
 public interface TagsMgntFeatures {
     RestResponse<Void> startObservingTag(String tagName);

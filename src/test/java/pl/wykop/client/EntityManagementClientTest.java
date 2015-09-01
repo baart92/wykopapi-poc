@@ -1,8 +1,9 @@
-package pl.wykop.anotherpackage;
+package pl.wykop.client;
 
-import pl.wykop.anotherpackage.model.Credentials;
-import pl.wykop.anotherpackage.model.Entry;
-import pl.wykop.anotherpackage.model.RestResponse;
+import pl.wykop.client.client.model.RestResponse;
+import pl.wykop.client.client.EntityManagementClient;
+import pl.wykop.client.client.model.Credentials;
+import pl.wykop.client.client.model.Entry;
 
 public class EntityManagementClientTest {
     public static void main(String[] args) {
@@ -14,5 +15,4 @@ public class EntityManagementClientTest {
             System.out.println(restResponse.getValue());
         }
     }
-
 }

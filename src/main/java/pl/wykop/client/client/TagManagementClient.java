@@ -1,8 +1,8 @@
-package pl.wykop.anotherpackage;
+package pl.wykop.client.client;
 
-import pl.wykop.anotherpackage.api.TagsMgntFeatures;
-import pl.wykop.anotherpackage.model.Credentials;
-import pl.wykop.anotherpackage.model.RestResponse;
+import pl.wykop.client.client.api.TagsMgntFeatures;
+import pl.wykop.client.client.model.RestResponse;
+import pl.wykop.client.client.model.Credentials;
 
 public class TagManagementClient extends AuthorizedWykopApiClient implements TagsMgntFeatures {
     public TagManagementClient(String baseUrl, Credentials credentials) {

@@ -1,4 +1,4 @@
-package pl.wykop.anotherpackage;
+package pl.wykop.client.client;
 
 public class WeatherResults {
 }

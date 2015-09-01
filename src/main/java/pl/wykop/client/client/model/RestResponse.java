@@ -1,4 +1,4 @@
-package pl.wykop.anotherpackage.model;
+package pl.wykop.client.client.model;
 
 public final class RestResponse<T> {
     private final T value;

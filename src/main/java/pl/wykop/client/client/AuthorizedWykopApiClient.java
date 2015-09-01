@@ -1,10 +1,10 @@
-package pl.wykop.anotherpackage;
+package pl.wykop.client.client;
 
-import pl.wykop.anotherpackage.api.AccessFeatures;
-import pl.wykop.anotherpackage.model.AuthData;
-import pl.wykop.anotherpackage.model.AuthDetails;
-import pl.wykop.anotherpackage.model.Credentials;
-import pl.wykop.anotherpackage.model.RestResponse;
+import pl.wykop.client.client.model.AuthData;
+import pl.wykop.client.client.model.AuthDetails;
+import pl.wykop.client.client.model.RestResponse;
+import pl.wykop.client.client.api.AccessFeatures;
+import pl.wykop.client.client.model.Credentials;
 
 import java.util.List;
 
@@ -14,13 +14,13 @@ public abstract class AuthorizedWykopApiClient extends WykopApiClient implements
     }
 
     @Override
-    public <T> RestResponse<T> get(String subUrl, List<String> parameters, Class<T> responseClass) {
+    <T> RestResponse<T> get(String subUrl, List<String> parameters, Class<T> responseClass) {
         String targetUrl = subUrl + authPostfix();
         return super.get(targetUrl, parameters, responseClass);
     }
 
     @Override
-    public <T> RestResponse<T> post(String subUrl, List<String> parameters, Class<T> responseClass) {
+    <T> RestResponse<T> post(String subUrl, List<String> parameters, Class<T> responseClass) {
         String targetUrl = subUrl + authPostfix();
         return super.post(targetUrl, parameters, responseClass);
     }

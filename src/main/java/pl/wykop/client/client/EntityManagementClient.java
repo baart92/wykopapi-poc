@@ -1,9 +1,9 @@
-package pl.wykop.anotherpackage;
+package pl.wykop.client.client;
 
-import pl.wykop.anotherpackage.api.EntryMgntFeatures;
-import pl.wykop.anotherpackage.model.Credentials;
-import pl.wykop.anotherpackage.model.Entry;
-import pl.wykop.anotherpackage.model.RestResponse;
+import pl.wykop.client.client.api.EntryMgntFeatures;
+import pl.wykop.client.client.model.Entry;
+import pl.wykop.client.client.model.RestResponse;
+import pl.wykop.client.client.model.Credentials;
 
 import java.util.List;
 
