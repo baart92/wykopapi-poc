@@ -11,7 +11,7 @@ public class RestClientTest {
 
         List<String> params = new ArrayList<String>();
         params.add("Wroclaw");
-        RestResponse<WeatherResults> response = restClient.get("{}", params, WeatherResults.class);
+        RestResponse<WeatherResults> response = restClient.get("{0}", params, WeatherResults.class);
 
         if (response.isErrorPresent()) {
             System.err.println(response.getErrorMessage());
