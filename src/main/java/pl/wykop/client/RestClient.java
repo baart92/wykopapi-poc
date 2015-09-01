@@ -1,6 +1,6 @@
-package pl.wykop.client.client;
+package pl.wykop.client;
 
-import pl.wykop.client.client.model.RestResponse;
+import pl.wykop.client.model.RestResponse;
 
 import java.util.List;
 

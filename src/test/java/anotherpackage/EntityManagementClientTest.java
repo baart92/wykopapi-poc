@@ -1,9 +1,9 @@
-package pl.wykop.client;
+package anotherpackage;
 
-import pl.wykop.client.client.model.RestResponse;
-import pl.wykop.client.client.EntityManagementClient;
-import pl.wykop.client.client.model.Credentials;
-import pl.wykop.client.client.model.Entry;
+import pl.wykop.client.EntityManagementClient;
+import pl.wykop.client.model.RestResponse;
+import pl.wykop.client.model.Credentials;
+import pl.wykop.client.model.Entry;
 
 public class EntityManagementClientTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package pl.wykop.client.client.model;
+package pl.wykop.client.model;
 
 public class AuthData {
     private String login;
